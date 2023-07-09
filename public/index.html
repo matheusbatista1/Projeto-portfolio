@@ -7,76 +7,79 @@
     <script src="./assets/js/bundle.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Logo</h1>
-        <nav>
-            <button>Abrir/fechar menu</button>
-            <ul>
-                <li><a href="index.html">Home</a> </li>
-                <li><a href="sobre.html">Sobre nós</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contato.html">Contato</a></li>
+    <header class="cabecalho">
+        <h1 class="logo">Logo</h1>
+        <nav class="menu-principal">
+            <button class="menu-principal__btn">Abrir/fechar menu</button>
+            <ul class="menu-principal__lista">
+                <li><a class="menu-principal__item menu-principal__item--atual" href="index.html">Home</a> </li>
+                <li><a class="menu-principal__item" href="sobre.html">Sobre nós</a></li>
+                <li><a class="menu-principal__item" href="portfolio.html">Portfolio</a></li>
+                <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <header>
-            <h2>Texto grande aqui!</h2>
-            <p>Texto menorzinho aqui!</p>
-            <a href="#servicos">role para ver mais</a>
+        <header class="cabecalho-home">
+            <h2 class="cabecalho-home__titulo">Texto grande bem aqui!</h2>
+            <p class="cabecalho-home__subtitulo">Texto menorzinho aqui!</p>
+            <a class="cabecalho-home__role" href="#servicos">role para ver mais</a>
         </header>
-        <section id="servicos"><!--Seção serviços-->
-            <h2>O que fazemos</h2>
+        <section id="servicos" class="servicos"><!--Seção serviços-->
+            <h2 class="home__titulo">O que fazemos</h2>
 
-            <section>
+            <section class="servicos__item">
                 <img src="../src/assets/img/icone-desenvolvimento-web.png" alt="Icone de desenvolvimento Web">
                 <h3>Desenvolvimento Web</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium eaque fugiat sit laboriosam veritatis, ea quisquam.</p>
+                <p class="servicos__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium eaque fugiat sit laboriosam veritatis, ea quisquam.</p class="servicos__textos">
             </section>
 
-            <section>
-                <img src="../src/assets/img/icone-carrinho-compras.png" alt="Icone carrinho de compras"></section>
+            <section class="servicos__item">
+                <img src="../src/assets/img/icone-carrinho-compras.png" alt="Icone carrinho de compras">
                 <h3>E-commerce</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium eaque fugiat sit laboriosam veritatis, ea quisquam.</p>
+                <p class="servicos__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium eaque fugiat sit laboriosam veritatis, ea quisquam.</p class="servicos__textos">
             </section>
 
-            <section>
-                <img src="../src/assets/img/icone-cafe.png" alt="Icone de café"></section>
+            <section class="servicos__item">
+                <img src="../src/assets/img/icone-cafe.png" alt="Icone de café">
                 <h3>Café</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium eaque fugiat sit laboriosam veritatis, ea quisquam.</p>
+                <p class="servicos__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium eaque fugiat sit laboriosam veritatis, ea quisquam.</p>
             </section>
         </section><!--Fim seção serviços-->
-        <section><!--Seção depoimentos-->
-            <img src="../src/assets/img/depoimentos/pessoa-1.jpg" alt="Foto da pessoa x">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae architecto dolores asperiores rem vero magnam provident animi perferendis qui, nihil atque accusantium cumque.</p>
-            <p>Nome pessoa - Cargo</p>
-        </section><!--Fim seção depoimentos-->
+        <section class="depoimentos"><!--Seção depoimentos-->
+            <h2 class="home__titulo home__titulo--branco">O que falam de nós</h2>
+            <section class="depoimentos__item">
+                <img class="depoimentos__img" src="../src/assets/img/depoimentos/pessoa-1.jpg" alt="Foto da pessoa x">
+                <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae architecto dolores asperiores rem vero magnam provident animi perferendis qui, nihil atque accusantium cumque.</p>
+                <p class="depoimentos__pessoa">Nome pessoa - Cargo</p>
+            </section><!--Fim seção depoimentos-->
+        </section>
     </main>
-    <footer>
-        <div>
-            <div>
-                <a href="index.html">Logo</a>
+    <footer class="rodape">
+        <div class="rodape__linha-1">
+            <div class="rodape__coluna">
+                <a href="index.html" class="logo logo--branco">Logo</a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque a possimus soluta eveniet expedita velit odio sint reiciendis, voluptatibus enim ducimus impedit. Rerum laudantium quod quibusdam ab, qui deserunt velit.</p>
             </div>
-            <div>
-                <h2>Social</h2>
-                <ul>
-                    <li><a href="https://github.com/matheusbatista1" target="_blank">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/matheusbatista1998/" target="_blank">LinkedIn</a></li>
+            <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Social</h2>
+                <ul class="rodape__lista-link">
+                    <li><a class="rodape__lista-link__item" href="https://github.com/matheusbatista1" target="_blank">GitHub</a></li>
+                    <li><a class="rodape__lista-link__item" href="https://www.linkedin.com/in/matheusbatista1998/" target="_blank">LinkedIn</a></li>
                 </ul>
             </div>
-            <div>
-                <h2>Links</h2>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre nós</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+            <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Links</h2>
+                <ul class="rodape__lista-link">
+                    <li><a class="rodape__lista-link__item" href="index.html">Home</a></li>
+                    <li><a class="rodape__lista-link__item" href="sobre.html">Sobre nós</a></li>
+                    <li><a class="rodape__lista-link__item" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="rodape__lista-link__item" href="contato.html">Contato</a></li>
                 </ul>
             </div>
         </div>
-        <div>
-            2023 - Todos os direitos reservados - Matheus Batista
+        <div class="rodape__linha-2">
+            © 2023 - Todos os direitos reservados - Matheus Batista
         </div>
     </footer>
 </body>

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack -w",
+    "sass-watch": "node-sass -w src/assets/sass/style.scss src/assets/css/style.css",
     "start": "babel-watch src/main.js",
     "clean": "del /Q /S public\\assets\\js\\*"
   },

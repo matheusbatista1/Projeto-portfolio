@@ -1,0 +1,12 @@
+.logo{
+    background-image: url("../img/logotipo-preto.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 120px;
+    height: 53px;
+    text-indent: -9999px;
+    margin: 0;
+    &--branco{
+        background-image: url("../img/logotipo-branco.png");
+    }
+}

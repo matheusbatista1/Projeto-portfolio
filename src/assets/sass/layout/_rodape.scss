@@ -1,0 +1,41 @@
+.rodape{
+    color: #fff;
+    .logo{
+        margin-bottom: 20px;
+    }
+    &__linha-1{
+        background-color: #272525;
+        background-image: url('../img/rodape-bg.jpg');
+        background-size: cover;
+        padding: 15px;
+    }
+    &__linha-2{
+        background-color: #000;
+        text-align: center;
+        padding: 15px;
+    }
+    &__coluna{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    &__titulo{
+        border-bottom: 1px solid #fff;
+        padding: 0 10px 10px 10px;
+        font-size: 18px;
+    }
+    &__lista-link{
+        padding: 0;
+        list-style: none;
+    }
+    &__lista-link__item{
+        color: #fff;
+        text-decoration: none;
+        margin-bottom: 10px;
+        display: block;
+        &::before{
+            content: '>';
+            margin-right: 8px;
+            color: $cor-principal;
+        }
+    }
+}

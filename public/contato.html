@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Responsivo</title>
-    <script src="./assets/js/bundle.js"></script>
 </head>
-<body>
+<body class="pagina-contato">
     <header class="cabecalho">
         <div class="container">
             <a href="index.html" class="logo">Logo</a>
@@ -26,13 +25,13 @@
             <h1 class="pagina-cabecalho__titulo">Contato</h1>
         </header>
         <section class="container pagina-conteudo">
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem commodi similique consectetur veritatis iusto sequi, temporibus animi necessitatibus voluptas eos, repellendus dicta laborum praesentium, provident cupiditate molestiae nostrum ipsam mollitia?</p>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem commodi similique consectetur veritatis iusto se.</p>
             <form action="#" class="formulario">
-                <div class="formulario__grupo">
+                <div class="formulario__grupo formulario__grupo--coluna-esq">
                     <label class="formulario__label" for="txtnome">Nome</label><br>
                     <input class="formulario__campo" type="text" name = "txtname" id="txtname">
                 </div>
-                <div class="formulario__grupo">
+                <div class="formulario__grupo formulario__grupo--coluna-dir">
                     <label class="formulario__label" for="email">E-mail</label><br>
                     <input class="formulario__campo" type="email" name="email" id="email">
                 </div>
@@ -79,5 +78,9 @@
             © 2023 - Todos os direitos reservados - Matheus Batista
         </div>
     </footer>
+    <script src="../libs/jquery-3.7.0.min.js"></script>
+    <script src="../libs/slick.min.js"></script>
+    <script src="../libs/jquery.validate.min.js"></script>
+    <script src="./assets/js/bundle.js"></script>
 </body>
 </html>

@@ -5,15 +5,43 @@
     text-align: center;
     padding: 50px 0;
     padding-top: 150px;
-    @media(min-width: $breakpoint-lg){
-        height: 100vh;
-    }
     &__titulo{
         font-size: 40px;
         margin-bottom: 0;
     }
     &__role{
         display: none;
+    }
+    @media(min-width: $breakpoint-lg){
+        height: 100vh;
+        &__titulo{
+            font-size: 60px;
+            margin-top: 250px;
+        }
+        &__subtitulo{
+            font-size: 22px;
+        }
+        &__role{
+            display: block;
+            position: absolute;
+            background: url('../img/icone-mouse.png') no-repeat center right;
+            color: #fff;
+            bottom: 10px;
+            left: 50%;
+            height: 50px;
+            width: 190px;
+            text-align: left;
+            font-size: 20px;
+            text-decoration: none;
+            line-height: 45px;
+            margin-left: -95px;
+        }
+    }
+    @media(min-width: $breakpoint-md){
+        background-image: url("../img/cabecalho-home-bg-md.jpg");
+    }
+    @media(min-width: $breakpoint-xl){
+        background-image: url("../img/cabecalho-home-bg-xl.jpg");
     }
 }
 

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Responsivo</title>
-    <script src="./assets/js/bundle.js"></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -53,13 +52,25 @@
         <section class="depoimentos"><!--Seção depoimentos-->
             <div class="container">
                 <h2 class="home__titulo home__titulo--branco">O que falam de nós</h2>
-                <section class="depoimentos__item">
-                    <img class="depoimentos__img" src="../src/assets/img/depoimentos/pessoa-1.jpg" alt="Foto da pessoa x">
-                    <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae architecto dolores asperiores rem vero magnam provident animi perferendis qui, nihil atque accusantium cumque.</p>
-                    <p class="depoimentos__pessoa">Nome pessoa - Cargo</p>
-                </section><!--Fim seção depoimentos-->
-            </section>
+                <div class="depoimentos__caixa">
+                    <section class="depoimentos__item">
+                        <img class="depoimentos__img" src="../src/assets/img/depoimentos/pessoa-1.jpg" alt="Foto da pessoa x">
+                        <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae architecto dolores asperiores rem vero magnam provident animi perferendis qui, nihil atque accusantium cumque.</p>
+                        <p class="depoimentos__pessoa">Nome pessoa - Cargo</p>
+                    </section>
+                    <section class="depoimentos__item">
+                        <img class="depoimentos__img" src="../src/assets/img/depoimentos/pessoa-1.jpg" alt="Foto da pessoa x">
+                        <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae architecto dolores asperiores rem vero magnam provident animi perferendis qui, nihil atque accusantium cumque.</p>
+                        <p class="depoimentos__pessoa">Nome pessoa - Cargo</p>
+                    </section>
+                    <section class="depoimentos__item">
+                        <img class="depoimentos__img" src="../src/assets/img/depoimentos/pessoa-1.jpg" alt="Foto da pessoa x">
+                        <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae architecto dolores asperiores rem vero magnam provident animi perferendis qui, nihil atque accusantium cumque.</p>
+                        <p class="depoimentos__pessoa">Nome pessoa - Cargo</p>
+                    </section>
+                </div>
             </div>
+        </section><!--Fim seção depoimentos-->
     </main>
     <footer class="rodape">
         <div class="rodape__linha-1">
@@ -90,5 +101,8 @@
             © 2023 - Todos os direitos reservados - Matheus Batista
         </div>
     </footer>
+    <script src="../libs/jquery-3.7.0.min.js"></script>
+    <script src="../libs/slick.min.js"></script>
+    <script src="./assets/js/bundle.js"></script>
 </body>
 </html>

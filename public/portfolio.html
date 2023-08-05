@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Responsivo</title>
-    <script src="./assets/js/bundle.js"></script>
+    <link rel="stylesheet" href="../src/assets/css/Antigo/_jquery.fancybox.min.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -34,37 +34,37 @@
             <nav>
                 <ul class="lista-trabalhos">
                     <li class="lista-trabalhos__item">
-                        <a href="../src/assets/img/portfolio/aircraft-2806035_1280.jpg">
+                        <a data-fancybox="gallery" href="../src/assets/img/portfolio/aircraft-2806035_1280.jpg">
                             <img class="lista-trabalhos__img" src="../src/assets/img/portfolio/miniaturas/aircraft-2806035_min.jpg" alt="Avião de manobras soltando fumaça">
                             <h2 class="lista-trabalhos__titulo">Nome do trabalho</h2>
                         </a> 
                     </li>
                     <li class="lista-trabalhos__item">
-                        <a href="../src/assets/img/portfolio/gear-2291916_1280.jpg">
+                        <a data-fancybox="gallery" href="../src/assets/img/portfolio/gear-2291916_1280.jpg">
                             <img class="lista-trabalhos__img" src="../src/assets/img/portfolio/miniaturas/gear-2291916_min.jpg" alt="Engrenagens vista de perto">
                             <h2 class="lista-trabalhos__titulo">Nome do outro trabalho</h2>
                         </a>
                     </li>
                     <li class="lista-trabalhos__item">
-                        <a href="../src/assets/img/portfolio/hong-kong-1990268_1280.jpg">
+                        <a data-fancybox="gallery" href="../src/assets/img/portfolio/hong-kong-1990268_1280.jpg">
                             <img class="lista-trabalhos__img" src="../src/assets/img/portfolio/miniaturas/hong-kong-1990268_min.jpg" alt="Foto da cidade de hong kong a noite">
                             <h2 class="lista-trabalhos__titulo">Nome do outro trabalho</h2>
                         </a>
                     </li>
                     <li class="lista-trabalhos__item">
-                        <a href="../src/assets/img/portfolio/landscape-2268775_1280.jpg">
+                        <a data-fancybox="gallery" href="../src/assets/img/portfolio/landscape-2268775_1280.jpg">
                             <img class="lista-trabalhos__img" src="../src/assets/img/portfolio/miniaturas/landscape-2268775_min.jpg" alt="Imagem de um vale com um conjunto de montanhas">
                             <h2 class="lista-trabalhos__titulo">Nome do outro trabalho</h2>
                         </a>
                     </li>
                     <li class="lista-trabalhos__item">
-                        <a href="../src/assets/img/portfolio/saddle-2614038_1280.jpg">
+                        <a data-fancybox="gallery" href="../src/assets/img/portfolio/saddle-2614038_1280.jpg">
                             <img class="lista-trabalhos__img" src="../src/assets/img/portfolio/miniaturas/saddle-2614038_min.jpg" alt="Banco de bicicleta com molas">
                             <h2 class="lista-trabalhos__titulo">Nome do outro trabalho</h2>
                         </a>
                     </li>
                     <li class="lista-trabalhos__item">
-                        <a href="../src/assets/img/portfolio/town-2430571_1920.jpg">
+                        <a data-fancybox="gallery" href="../src/assets/img/portfolio/town-2430571_1920.jpg">
                             <img class="lista-trabalhos__img" src="../src/assets/img/portfolio/miniaturas/town-2430571_min.jpg" alt="Imagem de cidade vista de cima">
                             <h2 class="lista-trabalhos__titulo">Nome do outro trabalho</h2>
                         </a>
@@ -102,5 +102,9 @@
             © 2023 - Todos os direitos reservados - Matheus Batista
         </div>
     </footer>
+    <script src="../libs/jquery-3.7.0.min.js"></script>
+    <script src="../libs/slick.min.js"></script>
+    <script src="../libs/jquery.fancybox.min.js"></script>
+    <script src="./assets/js/bundle.js"></script>
 </body>
 </html>

@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design Responsivo</title>
-</head>
-<body>
-    <header class="cabecalho">
-        <div class="container">
-            <h1 class="logo">Logo</h1>
-            <nav class="menu-principal  menu-principal--fechado">
-                <button class="menu-principal__btn">Abrir/fechar menu</button>
-                <ul class="menu-principal__lista">
-                    <li><a class="menu-principal__item menu-principal__item--atual" href="index.html">Home</a> </li>
-                    <li><a class="menu-principal__item" href="sobre.html">Sobre nós</a></li>
-                    <li><a class="menu-principal__item" href="portfolio.html">Portfolio</a></li>
-                    <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div><!--Fim do container-->
-    </header>
-    <main>
+<?php include('assets/partes/cabecalho.php') ?>
         <header class="cabecalho-home">
             <h2 class="cabecalho-home__titulo">Texto grande bem aqui!</h2>
             <p class="cabecalho-home__subtitulo">Texto menorzinho aqui!</p>
@@ -71,38 +49,4 @@
                 </div>
             </div>
         </section><!--Fim seção depoimentos-->
-    </main>
-    <footer class="rodape">
-        <div class="rodape__linha-1">
-            <div class="container">
-                <div class="rodape__coluna">
-                    <a href="index.html" class="logo logo--branco">Logo</a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque a possimus soluta eveniet expedita velit odio sint reiciendis, voluptatibus enim ducimus impedit. Rerum laudantium quod quibusdam ab, qui deserunt velit.</p>
-                </div>
-                <div class="rodape__coluna">
-                    <h2 class="rodape__titulo">Social</h2>
-                    <ul class="rodape__lista-link">
-                        <li><a class="rodape__lista-link__item" href="https://github.com/matheusbatista1" target="_blank">GitHub</a></li>
-                        <li><a class="rodape__lista-link__item" href="https://www.linkedin.com/in/matheusbatista1998/" target="_blank">LinkedIn</a></li>
-                    </ul>
-                </div>
-                <div class="rodape__coluna">
-                    <h2 class="rodape__titulo">Links</h2>
-                    <ul class="rodape__lista-link">
-                        <li><a class="rodape__lista-link__item" href="index.html">Home</a></li>
-                        <li><a class="rodape__lista-link__item" href="sobre.html">Sobre nós</a></li>
-                        <li><a class="rodape__lista-link__item" href="portfolio.html">Portfolio</a></li>
-                        <li><a class="rodape__lista-link__item" href="contato.html">Contato</a></li>
-                    </ul>
-                </div>
-            </div><!--Fim do container-->
-        </div>
-        <div class="rodape__linha-2">
-            © 2023 - Todos os direitos reservados - Matheus Batista
-        </div>
-    </footer>
-    <script src="../libs/jquery-3.7.0.min.js"></script>
-    <script src="../libs/slick.min.js"></script>
-    <script src="./assets/js/bundle.js"></script>
-</body>
-</html>
+<?php include('assets/partes/rodape.php') ?>
